@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate & Evaluate Marks Platform</title>
+    <link rel="stylesheet" href="./marksPlatform.css">
+</head>
+<body>
+    <div class="test-container">
+        <div id="header"> CMS 101 Tests</div>
+        <div class="test-input">
+            <label for="">Test 1</label>
+            <input id="test1Inp" type="number" placeholder="Mark out of 50">
+            <br>
+            <label for="" class="lbls">Test 2</label>
+            <input id="test2Inp" type="number" placeholder="Mark out of 60">
+            <br>
+            <label for="" class="lbls">Test 3</label>
+            <input id="test3Inp" type="number" placeholder="Mark out of 60">
+            <br>
+            <label for="" class="lbls">Test 4</label>
+            <input id="test4Inp" type="number" placeholder="Mark out of 50">
+
+        </div>
+        <div class="button-group">
+            <button id="white-button" onclick="calculatePercentage()">Calculate</button>
+            <button id="blue-button" onclick="clearMarks()">Clear</button>
+
+        </div>
+        <div class="display-result">
+            <p id="test1-display"></p>
+            <p id="test2-display"></p>
+            <p id="test3-display"></p>
+            <p id="test4-display"></p>
+            <div id="min-max"></div>
+
+
+        </div>
+        
+        
+
+    </div>
+
+
+
+
+    <script src="./marksPlatform.js"></script>
+</body>
+</html>
